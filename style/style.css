@@ -1,3 +1,12 @@
+
+
+.noto-serif-font {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
 /* nav */
 .logo{
     height: 82px;
@@ -18,7 +27,7 @@
     max-width: 1140px;
     margin: 0 auto;
 }
-.right{
+.right-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,4 +36,23 @@
 .nav-items a{
     padding-right: 48px;
     text-decoration: none;
+}
+.home{
+    font-weight: bold;
+}
+.regular{
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/* for small device */
+@media screen and (max-width: 576px) {
+     .nav-items{
+        display: none;
+     }
 }
