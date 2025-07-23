@@ -143,17 +143,95 @@ margin: 0 auto;
 }
 
 /*  badges */
-.badge-container{
-    text-align: right;
-    
+
+
+
+
+/* latest deal section */
+
+.latest-deal h3{
+    max-width: 1440px;
+    text-align: center;
+    font-size: 4.2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 133px;
+
 }
-.badges{
-    height: 286px;
-    width: 286px;
-    /* margin-left: -100px;
-     margin-top: 300px; */
-    
+.latest-deal h3 span{
+    color: #E95A08;
 }
+.latest-deal p{
+    max-width: 888px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+.latest-deal-img{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    margin-top: 120px;
+}
+.left-container{
+
+}
+.latest-deal-img button{
+    border: none;
+    color: white;
+    border-bottom: 2px solid #ffffff; 
+    background-color: transparent; 
+    font-size: 1.2rem;
+}
+.bloom{
+    height: 201px;
+    width: 366px;
+    background-image: url('../images/deal-bloom.png');
+    border-radius: 22px;
+    margin-bottom: 28px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white; 
+}
+
+.ana{
+    height: 201px;
+    width: 366px;
+    background-image: url('../images/deal-ana.png');
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+.right-container-deal{
+    height: 430px;
+    width: 753px;
+    background-image: url('../images/deal-zabo.png');  
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+
 
 /* media query for small device */
 @media screen and (max-width: 576px) {
@@ -194,4 +272,20 @@ margin: 0 auto;
     .plant-lover img{
         width: 100%;
     }
+    .latest-deal-img{
+        grid-template-columns: 1fr;
+    }
+    .right-container-deal{
+        height: 177px;
+        width: 361px;
+        font-size: 1.8rem;
+    }
+    .bloom, .ana, .right-container-deal{
+        width: 100%;
+    }
+    .ana{
+        border-radius: 0%;
+    }
+
+        
 }
