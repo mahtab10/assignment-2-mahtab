@@ -1,0 +1,30 @@
+/* nav */
+.logo{
+    height: 82px;
+    width: 135px;
+}
+.cart-logo{
+    height: 24px;
+    width: 24px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 415px;
+}
+.nav-items a{
+    padding-right: 48px;
+    text-decoration: none;
+}
