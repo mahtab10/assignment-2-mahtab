@@ -1,12 +1,13 @@
 
 
-.noto-serif-font {
+
+.noto-serif-font{
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
   }
-
 /* nav */
 .logo{
     height: 82px;
@@ -44,6 +45,31 @@
     font-weight: 400;
 }
 
+/* banner */
+.banner{
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1140px;
+margin: 0 auto;
+margin-top: 120px;
+padding-top: 106px           ;
+}
+.banner-title{
+font-size: 4rem;
+font-weight: bold;
+}
+.banner-title span{
+color: #E95A08;
+}
+.banner-description{
+color: rgba(0, 0, 0, 0.445);
+font-size: 22px;
+font-weight: 400;
+}
+.banner image{
+    max-width: 100%;
+} 
 
 
 
@@ -54,5 +80,19 @@
 @media screen and (max-width: 576px) {
      .nav-items{
         display: none;
+        padding-right: 0%;
      }
+     .banner{
+        flex-direction: column-reverse;
+        max-width: 395px;
+     }
+     .banner image{
+        max-width: 100%;
+    } 
+    .banner-title{
+        font-size: 1.2rem;
+    }
+    .banner-description{
+        font-size: 14px;
+    }
 }
