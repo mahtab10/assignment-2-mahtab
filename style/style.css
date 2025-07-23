@@ -213,11 +213,11 @@
 
 .bloom {
     height: 201px;
-    width: 366px;
+    width: 361px;
     background-image: url('../images/deal-bloom.png');
+    /* background-repeat: no-repeat; */
     border-radius: 22px;
     margin-bottom: 28px;
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -229,7 +229,7 @@
 
 .ana {
     height: 201px;
-    width: 366px;
+    width: 361px;
     background-image: url('../images/deal-ana.png');
     border-radius: 22px;
     display: flex;
@@ -307,6 +307,53 @@
     cursor: pointer;
 }
 
+/* Footer Section */
+.footer {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px
+  }
+  .footer-left {
+   
+  } 
+  .footer-left img {
+    height: 82px;
+    width: 135px
+    margin-bottom: 15px;
+  }
+  .footer-left p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.20 em;
+    max-width: 359px;
+  }
+    .footer-center {
+    display: flex;
+    gap: auto;
+    justify-content: center;
+  }
+  .footer-center ul {
+    list-style: none;
+    padding: 30px
+  }
+  .footer-center li {
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size:1.2rem;
+    gap: 10px
+  }
+  .footer-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer-right img{
+    text-decoration: none;
+  }
+  
 
 
 /* media query for small device */
@@ -398,5 +445,15 @@
         width: 50%;
         font-size: 1rem;
     }
-
+    .footer{
+        flex-direction: column;
+        margin: 0;
+        padding: o;
+    }
+    .footer-center{
+        flex-direction: column;
+    }
+    .footer-center ul{
+        padding: 0;
+    }
 }
