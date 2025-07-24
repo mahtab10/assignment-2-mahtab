@@ -107,7 +107,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 49px;
-    ma
 }
 
 .card-container img {
@@ -136,6 +135,7 @@
     background-color: #E95A08;
     color: white;
     margin-bottom: 1.5rem;
+    border: none;
 }
 
 /* plant lover section */
@@ -150,9 +150,8 @@
 }
 .badge-img {
     display: flex;
-    /* flex-direction: column; */
     width: 50%;
-    /* margin-top: -220px; */
+    
 }
 .chllange{
      height: 286px;
@@ -366,7 +365,6 @@
   .footer-right {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     gap: 20px;
   }
   .footer-right img{
@@ -436,7 +434,8 @@
 
     .bloom,
     .ana,
-    .right-container-deal {
+    .right-container-deal,
+    .badge-img {
         width: 100%;
     }
 
@@ -475,5 +474,8 @@
     .footer-center ul{
         padding: 0;
         margin: 0;
+    }
+    .chllange{
+        display: none;
     }
 }
