@@ -141,16 +141,30 @@
 /* plant lover section */
 .plant-lover {
     display: flex;
+    flex-direction: ;
     max-width: 1140px;
     margin: 0 auto;
     justify-content: space-between;
     gap: 40px;
     margin-top: 200px;
 }
-
 .badge-img {
+    display: flex;
+    /* flex-direction: column; */
     width: 50%;
+    /* margin-top: -220px; */
 }
+.chllange{
+     height: 286px;
+     width: 286px;
+     margin-left: -180px;
+     margin-top: -120px;
+}
+.box{
+
+}
+
+
 
 .plant-lover h3 {
     font-size: 50px;
@@ -215,7 +229,8 @@
     height: 201px;
     width: 361px;
     background-image: url('../images/deal-bloom.png');
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 22px;
     margin-bottom: 28px;
     display: flex;
@@ -231,6 +246,8 @@
     height: 201px;
     width: 361px;
     background-image: url('../images/deal-ana.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 22px;
     display: flex;
     flex-direction: column;
@@ -322,8 +339,9 @@
   } 
   .footer-left img {
     height: 82px;
-    width: 135px
-    margin-bottom: 15px;
+    width: 135px;
+    margin-top:50px;
+    /* margin-bottom: 15px; */
   }
   .footer-left p {
     color: rgba(0, 0, 0, 0.5);
@@ -337,7 +355,7 @@
   }
   .footer-center ul {
     list-style: none;
-    padding: 30px
+    padding: 50px
   }
   .footer-center li {
     margin-bottom: 20px;
@@ -348,6 +366,7 @@
   .footer-right {
     display: flex;
     align-items: center;
+    /* justify-content: center; */
     gap: 20px;
   }
   .footer-right img{
@@ -437,7 +456,6 @@
 
     .loin-form input {
         width: 70%;
-        margin-bottom: 10px;
         font-size: 0.9rem;
     }
 
@@ -452,8 +470,10 @@
     }
     .footer-center{
         flex-direction: column;
+        margin: none;
     }
     .footer-center ul{
         padding: 0;
+        margin: 0;
     }
 }
