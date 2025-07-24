@@ -382,6 +382,7 @@
 
     .banner {
         flex-direction: column-reverse;
+        margin-top: 0px;
     }
 
     .banner img {
